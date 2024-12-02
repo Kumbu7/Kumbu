@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kumbu - Mobile Payment Application">
+    <title>Kumbu - Mobile Payment App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+        section {
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 900px;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kumbu</h1>
+        <p>Mobile Payment Application</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Kumbu</h2>
+            <p>Kumbu is a mobile payment application designed to facilitate secure and seamless transactions for users. It offers robust user management and efficient transaction handling powered by Spring Boot and MySQL.</p>
+        </section>
+        <section id="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Secure user authentication and management</li>
+                <li>Efficient transaction processing</li>
+                <li>Integration with MySQL database for data storage</li>
+                <li>Built using Spring Boot for scalability and reliability</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: support@kumbu.com</p>
+            <p>Phone: +123-456-7890</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Kumbu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
